@@ -4,7 +4,7 @@
 
 
 int main() {
-
+    
     init_GPIOTE();
     init_PPI();
 
