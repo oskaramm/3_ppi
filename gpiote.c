@@ -7,4 +7,5 @@ void init_GPIOTE(){
     GPIOTE->CONFIG[2] = (3 | (31 << 8) | (3 << 16) | (1 << 20));
     GPIOTE->CONFIG[3] = (3 | (5 << 8) | (3 << 16) | (1 << 20) | (1 << 13));
     GPIOTE->CONFIG[4] = (3 | (30 << 8) | (3 << 16) | (1 << 20));
+    GPIOTE->CONFIG[5] = (1 | (14 << 8) | (2 << 16) | (0 << 20)); //fallende flanke?
 }
