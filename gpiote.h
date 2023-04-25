@@ -27,4 +27,4 @@ typedef struct {
 
 #endif
 
-void init_GPIOE();
+void init_GPIOTE();
