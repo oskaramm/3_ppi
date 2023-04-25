@@ -4,8 +4,8 @@
 
 
 int main() {
-    
-    init_GPIOE();
+
+    init_GPIOTE();
     init_PPI();
 
     // Main loop
